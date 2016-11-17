@@ -19,12 +19,27 @@
     </EditText>
 
     <Button
-            android:id="@+id/startintent"
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/inputforintent"
-            android:layout_below="@+id/inputforintent"
             android:onClick="onClick"
-            android:text="Calling an intent" />
+            android:text="Calling an intent"
+            android:layout_below="@+id/inputforintent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp"/>
+
+    <Button
+            android:id="@+id/shareintent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="shareData"
+            android:text="Share Intent"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button2"
+            android:layout_alignEnd="@+id/button2"/>
 
 </RelativeLayout>
