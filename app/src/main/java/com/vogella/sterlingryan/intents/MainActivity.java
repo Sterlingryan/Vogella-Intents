@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         //TODO create new intent
         Intent intent = new Intent(this, ResultActivity.class);
+        intent.putExtra("thisKey", value);
 
         //TODO start second activity
         startActivity(intent);
