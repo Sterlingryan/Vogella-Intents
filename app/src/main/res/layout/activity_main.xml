@@ -42,4 +42,16 @@
             android:layout_alignRight="@+id/button2"
             android:layout_alignEnd="@+id/button2"/>
 
+    <Button
+            android:text="Start Web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/shareintent"
+            android:layout_alignEnd="@+id/shareintent"
+            android:onClick="startWebBrowser"/>
+
 </RelativeLayout>

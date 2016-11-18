@@ -1,6 +1,7 @@
 package com.vogella.sterlingryan.intents;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -48,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_TEXT, "Hello World!");
 
+        startActivity(intent);
+    }
+
+    public void startWebBrowser(View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.vogella.com"));
         startActivity(intent);
     }
 }
