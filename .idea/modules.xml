@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Intent.iml" filepath="$PROJECT_DIR$/Intent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/browserFilter/browserFilter.iml" filepath="$PROJECT_DIR$/browserFilter/browserFilter.iml" />
     </modules>
   </component>
 </project>
